@@ -9,7 +9,7 @@ header {
     background-color: #ffff00;
     font-size: 32px;
     font-family: cursive;
-    color: #cd086b;
+    color: #9c014e;
     display: flex;
     align-items: center;
     gap: 15px
@@ -20,3 +20,42 @@ h2 {
     font-size: 30px;
     font-family: cursive;
 }
+
+nav {
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    font-size: 25px;
+    font-weight: bold;
+    color: #9c014e;
+    text-decoration: none;
+    padding: 0 80px;
+}
+
+img {
+    width: 100%;
+}
+
+aside {
+    float: right;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px 0;
+    font-size: 20px;
+    text-align: left;
+    word-wrap: normal;
+}
+footer {
+    clear: both;
+    text-align: center;
+    font-weight: bold;
+    color: #9c014e;
+    padding: 20px 0;
+    font-size: 20px;
+    background-color: #ffff00;
+}
+
