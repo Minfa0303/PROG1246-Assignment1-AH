@@ -1,8 +1,9 @@
 body {
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     border: 2px solid black;
     margin: 20px auto;
-    padding: 15px;
+    padding: 0 20px;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
     color: #9c014e;
     display: flex;
     align-items: center;
-    gap: 15px
+    gap: 80px
 }
 
 .phrase {
@@ -106,3 +107,66 @@ footer {
     background-color: #ffff00;
 }
 
+@media only screen and (max-width: 767px) {
+    body {
+        width: 94%;
+        padding: 2%;
+        margin: 10px auto;
+    }   
+
+    header {
+        max-width: 50%;
+        padding: 2%;
+        margin: 10px auto;
+        font-size: 1.2rem;
+        word-wrap:normal;
+        
+    }
+
+    header img {
+        max-width: 100px;
+    }
+
+    .phrase {
+        width: 75%;
+        float: none;
+        word-wrap: normal;
+        margin-left: 100px;
+
+    }
+
+    nav a {
+        display: block;
+        padding: 8px 0;
+    }
+
+    main {
+        width: 100%;
+        float: none;
+    }
+
+    aside {
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+    }
+
+    .herotext {
+        padding: 10px;
+    }
+
+    .herotext h2 {
+        font-size: 1.2rem;
+        margin-top: 5px;
+    }
+
+    .herotext p {
+        font-size: 0.9rem;
+        margin: 5px 0;
+    }
+
+    .shopbutton {
+        padding: 6px;
+        font-size: 0.9rem;
+    }
+}
