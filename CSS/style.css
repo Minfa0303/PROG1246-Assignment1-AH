@@ -19,7 +19,7 @@ header {
 }
 
 h1 {
-    margin-left: 10px;
+    margin-left: 110px;
     margin-top: 40px;
 }
 
@@ -29,8 +29,8 @@ h1 {
 
 .phrase {
     text-align: center;
-    margin-top: -65px; 
-    margin-left: -100px;
+    margin-top: -90px; 
+    margin-left: 100px;
     font-family: cursive; 
     color: #9c014e;
     font-style: bold;  
@@ -130,12 +130,16 @@ footer {
     }   
 
     header {
-        max-width: 50%;
+        max-width: 100%;
         padding: 2%;
         font-size: .75rem;
         word-wrap:normal;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+    }
+
+    h1 {
+        margin: 15px;
+        margin-bottom: 40px;
+        margin-right: 115px;
     }
 
     header img {
