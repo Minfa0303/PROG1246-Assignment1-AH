@@ -102,13 +102,23 @@ nav a {
 
 aside {
     float: right;
+    margin-top: 20px;
+    padding: 0 8px 0 8px;
     font-size: 20px;
+    background-color: #9c014e;
+    color: yellow;
+    font-family: cursive;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 5px 5px 0 0  rgba(40, 40, 38, 0.377);
 }
 
+
 main {
-    width: 1200px;
+    width: 68%;
     padding: 20px 0;
     font-size: 20px;
+    font-family: cursive;
     text-align: left;
     word-wrap: normal;
 }
@@ -168,7 +178,7 @@ footer {
     }
 
     aside {
-        width: 100%;
+        width: 95%;
         float: none;
         margin-top: 20px;
     }
